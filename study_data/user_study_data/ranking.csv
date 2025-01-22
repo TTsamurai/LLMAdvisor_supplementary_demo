@@ -1,0 +1,386 @@
+,user_id,uuid,timestamp,type,value,comp_order,ranking,narrative_id,narrative_ranking,gold_ranking
+0,demo_2_1_2,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-04 12:41:01,final_ranking,"{'comp_order': array(['Coca-Cola Company ', 'JP Morgan Chase & Co.', 'Amazon.com, Inc.',
+       'Walmart Inc.'], dtype=object), 'ranking': array([2, 3, 1, 4])}","['Coca-Cola Company ' 'JP Morgan Chase & Co.' 'Amazon.com, Inc.'
+ 'Walmart Inc.']",[2 3 1 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[1, 3, 4, 2]"
+1,demo_3_1_4,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-04 18:21:20,final_ranking,"{'comp_order': array(['Amazon.com, Inc.', 'Walmart Inc.', 'JP Morgan Chase & Co.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 1, 3, 2])}","['Amazon.com, Inc.' 'Walmart Inc.' 'JP Morgan Chase & Co.'
+ 'Coca-Cola Company ']",[4 1 3 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[4, 2, 3, 1]"
+2,user_2_0_0,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-04 21:24:22,final_ranking,"{'comp_order': array(['Exxon Mobil Corporation', 'Philip Morris International Inc',
+       'Johnson & Johnson', 'Eli Lilly and Company'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Exxon Mobil Corporation' 'Philip Morris International Inc'
+ 'Johnson & Johnson' 'Eli Lilly and Company']",[4 3 2 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[4, 3, 2, 1]"
+3,user_2_2_3,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-04 22:48:25,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Bank of America Corporation',
+       'Tesla, Inc.', 'Apple Inc.'], dtype=object), 'ranking': array([1, 3, 2, 4])}","['Procter & Gamble Company ' 'Bank of America Corporation' 'Tesla, Inc.'
+ 'Apple Inc.']",[1 3 2 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 1, 2, 4]"
+4,user_1_1_1,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-04 23:06:30,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Amazon.com, Inc.', 'Walmart Inc.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 2, 3, 1])}","['JP Morgan Chase & Co.' 'Amazon.com, Inc.' 'Walmart Inc.'
+ 'Coca-Cola Company ']",[4 2 3 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 4, 2, 1]"
+5,user_0_0_4,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-05 01:58:44,final_ranking,"{'comp_order': array(['Eli Lilly and Company', 'Exxon Mobil Corporation',
+       'Johnson & Johnson', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([2, 3, 1, 4])}","['Eli Lilly and Company' 'Exxon Mobil Corporation' 'Johnson & Johnson'
+ 'Philip Morris International Inc']",[2 3 1 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[1, 4, 2, 3]"
+6,user_0_1_1,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-05 16:07:48,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Amazon.com, Inc.', 'Walmart Inc.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([1, 4, 3, 2])}","['JP Morgan Chase & Co.' 'Amazon.com, Inc.' 'Walmart Inc.'
+ 'Coca-Cola Company ']",[1 4 3 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 4, 2, 1]"
+7,demo_2_2_0,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-07 08:39:49,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([4, 1, 3, 2])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[4 1 3 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+8,demo_1_0_2,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-08 16:30:42,final_ranking,"{'comp_order': array(['Philip Morris International Inc', 'Johnson & Johnson',
+       'Eli Lilly and Company', 'Exxon Mobil Corporation'], dtype=object), 'ranking': array([4, 2, 1, 3])}","['Philip Morris International Inc' 'Johnson & Johnson'
+ 'Eli Lilly and Company' 'Exxon Mobil Corporation']",[4 2 1 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[3, 2, 1, 4]"
+9,demo_2_2_4,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-09 17:30:19,final_ranking,"{'comp_order': array(['Apple Inc.', 'Bank of America Corporation',
+       'Procter & Gamble Company ', 'Tesla, Inc.'], dtype=object), 'ranking': array([1, 3, 4, 2])}","['Apple Inc.' 'Bank of America Corporation' 'Procter & Gamble Company '
+ 'Tesla, Inc.']",[1 3 4 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[4, 1, 3, 2]"
+10,demo_3_0_1,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-10 20:21:18,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([2, 1, 4, 3])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[2 1 4 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+11,user_3_0_1,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-11 08:38:07,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([2, 3, 4, 1])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[2 3 4 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+12,user_3_0_4,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-12 02:48:52,final_ranking,"{'comp_order': array(['Eli Lilly and Company', 'Exxon Mobil Corporation',
+       'Johnson & Johnson', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([4, 1, 3, 2])}","['Eli Lilly and Company' 'Exxon Mobil Corporation' 'Johnson & Johnson'
+ 'Philip Morris International Inc']",[4 1 3 2],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[1, 4, 2, 3]"
+13,user_3_0_3,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-14 05:57:46,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Exxon Mobil Corporation',
+       'Philip Morris International Inc', 'Eli Lilly and Company'],
+      dtype=object), 'ranking': array([2, 3, 4, 1])}","['Johnson & Johnson' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc' 'Eli Lilly and Company']",[2 3 4 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 4, 3, 1]"
+14,user_2_1_3,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-14 07:42:55,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Walmart Inc.', 'Coca-Cola Company ',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([2, 3, 1, 4])}","['JP Morgan Chase & Co.' 'Walmart Inc.' 'Coca-Cola Company '
+ 'Amazon.com, Inc.']",[2 3 1 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 2, 1, 4]"
+15,user_2_2_2,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-15 02:07:16,final_ranking,"{'comp_order': array(['Tesla, Inc.', 'Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation'], dtype=object), 'ranking': array([1, 3, 2, 4])}","['Tesla, Inc.' 'Procter & Gamble Company ' 'Apple Inc.'
+ 'Bank of America Corporation']",[1 3 2 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[2, 3, 4, 1]"
+16,user_3_0_0,0a1acf10-3a5c-4d28-97cc-ddd18121057c,2024-11-15 05:12:11,final_ranking,"{'comp_order': array(['Exxon Mobil Corporation', 'Philip Morris International Inc',
+       'Johnson & Johnson', 'Eli Lilly and Company'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Exxon Mobil Corporation' 'Philip Morris International Inc'
+ 'Johnson & Johnson' 'Eli Lilly and Company']",[4 3 2 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[4, 3, 2, 1]"
+17,user_1_1_1,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-25 17:46:56,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Amazon.com, Inc.', 'Walmart Inc.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 3, 1, 2])}","['JP Morgan Chase & Co.' 'Amazon.com, Inc.' 'Walmart Inc.'
+ 'Coca-Cola Company ']",[4 3 1 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 4, 2, 1]"
+18,user_0_2_0,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-26 00:56:37,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([4, 2, 1, 3])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[4 2 1 3],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+19,user_2_0_2,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-26 16:13:47,final_ranking,"{'comp_order': array(['Philip Morris International Inc', 'Johnson & Johnson',
+       'Eli Lilly and Company', 'Exxon Mobil Corporation'], dtype=object), 'ranking': array([2, 3, 1, 4])}","['Philip Morris International Inc' 'Johnson & Johnson'
+ 'Eli Lilly and Company' 'Exxon Mobil Corporation']",[2 3 1 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[3, 2, 1, 4]"
+20,user_1_2_0,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-26 23:05:42,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([3, 2, 4, 1])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[3 2 4 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+21,user_1_2_1,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-27 01:36:18,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 1, 3, 4])}","['Procter & Gamble Company ' 'Apple Inc.' 'Bank of America Corporation'
+ 'Tesla, Inc.']",[2 1 3 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 4, 1, 2]"
+22,user_0_2_2,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-27 14:57:09,final_ranking,"{'comp_order': array(['Tesla, Inc.', 'Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation'], dtype=object), 'ranking': array([4, 2, 1, 3])}","['Tesla, Inc.' 'Procter & Gamble Company ' 'Apple Inc.'
+ 'Bank of America Corporation']",[4 2 1 3],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[2, 3, 4, 1]"
+23,user_1_0_2,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-27 17:51:11,final_ranking,"{'comp_order': array(['Philip Morris International Inc', 'Johnson & Johnson',
+       'Eli Lilly and Company', 'Exxon Mobil Corporation'], dtype=object), 'ranking': array([2, 4, 1, 3])}","['Philip Morris International Inc' 'Johnson & Johnson'
+ 'Eli Lilly and Company' 'Exxon Mobil Corporation']",[2 4 1 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[3, 2, 1, 4]"
+24,user_1_0_3,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-27 22:14:14,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Exxon Mobil Corporation',
+       'Philip Morris International Inc', 'Eli Lilly and Company'],
+      dtype=object), 'ranking': array([3, 2, 4, 1])}","['Johnson & Johnson' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc' 'Eli Lilly and Company']",[3 2 4 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 4, 3, 1]"
+25,user_0_0_4,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 01:57:32,final_ranking,"{'comp_order': array(['Eli Lilly and Company', 'Exxon Mobil Corporation',
+       'Johnson & Johnson', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([4, 2, 3, 1])}","['Eli Lilly and Company' 'Exxon Mobil Corporation' 'Johnson & Johnson'
+ 'Philip Morris International Inc']",[4 2 3 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[1, 4, 2, 3]"
+26,user_1_2_3,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 13:09:00,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Bank of America Corporation',
+       'Tesla, Inc.', 'Apple Inc.'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Procter & Gamble Company ' 'Bank of America Corporation' 'Tesla, Inc.'
+ 'Apple Inc.']",[4 3 2 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 1, 2, 4]"
+27,user_2_1_1,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 16:19:06,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Amazon.com, Inc.', 'Walmart Inc.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([2, 3, 4, 1])}","['JP Morgan Chase & Co.' 'Amazon.com, Inc.' 'Walmart Inc.'
+ 'Coca-Cola Company ']",[2 3 4 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 4, 2, 1]"
+28,user_2_0_3,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 16:33:38,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Exxon Mobil Corporation',
+       'Philip Morris International Inc', 'Eli Lilly and Company'],
+      dtype=object), 'ranking': array([1, 3, 2, 4])}","['Johnson & Johnson' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc' 'Eli Lilly and Company']",[1 3 2 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 4, 3, 1]"
+29,user_0_0_2,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 16:51:35,final_ranking,"{'comp_order': array(['Philip Morris International Inc', 'Johnson & Johnson',
+       'Eli Lilly and Company', 'Exxon Mobil Corporation'], dtype=object), 'ranking': array([1, 2, 3, 4])}","['Philip Morris International Inc' 'Johnson & Johnson'
+ 'Eli Lilly and Company' 'Exxon Mobil Corporation']",[1 2 3 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[3, 2, 1, 4]"
+30,user_3_0_0,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 20:11:15,final_ranking,"{'comp_order': array(['Exxon Mobil Corporation', 'Philip Morris International Inc',
+       'Johnson & Johnson', 'Eli Lilly and Company'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Exxon Mobil Corporation' 'Philip Morris International Inc'
+ 'Johnson & Johnson' 'Eli Lilly and Company']",[4 3 2 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[4, 3, 2, 1]"
+31,user_1_1_4,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 20:34:18,final_ranking,"{'comp_order': array(['Amazon.com, Inc.', 'Walmart Inc.', 'JP Morgan Chase & Co.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([3, 2, 4, 1])}","['Amazon.com, Inc.' 'Walmart Inc.' 'JP Morgan Chase & Co.'
+ 'Coca-Cola Company ']",[3 2 4 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[4, 2, 3, 1]"
+32,user_2_2_4,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 20:51:36,final_ranking,"{'comp_order': array(['Apple Inc.', 'Bank of America Corporation',
+       'Procter & Gamble Company ', 'Tesla, Inc.'], dtype=object), 'ranking': array([1, 3, 4, 2])}","['Apple Inc.' 'Bank of America Corporation' 'Procter & Gamble Company '
+ 'Tesla, Inc.']",[1 3 4 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[4, 1, 3, 2]"
+33,user_1_0_1,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-28 22:31:23,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([1, 2, 4, 3])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[1 2 4 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+34,user_2_0_4,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-29 12:02:52,final_ranking,"{'comp_order': array(['Eli Lilly and Company', 'Exxon Mobil Corporation',
+       'Johnson & Johnson', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([1, 4, 2, 3])}","['Eli Lilly and Company' 'Exxon Mobil Corporation' 'Johnson & Johnson'
+ 'Philip Morris International Inc']",[1 4 2 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[1, 4, 2, 3]"
+35,user_3_1_0,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-29 14:36:03,final_ranking,"{'comp_order': array(['Walmart Inc.', 'Coca-Cola Company ', 'JP Morgan Chase & Co.',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([1, 3, 2, 4])}","['Walmart Inc.' 'Coca-Cola Company ' 'JP Morgan Chase & Co.'
+ 'Amazon.com, Inc.']",[1 3 2 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[2, 1, 3, 4]"
+36,user_3_1_2,41ffe116-3ade-45a9-a7c3-c7fa26aa71c3,2024-10-29 17:59:02,final_ranking,"{'comp_order': array(['Coca-Cola Company ', 'JP Morgan Chase & Co.', 'Amazon.com, Inc.',
+       'Walmart Inc.'], dtype=object), 'ranking': array([1, 4, 2, 3])}","['Coca-Cola Company ' 'JP Morgan Chase & Co.' 'Amazon.com, Inc.'
+ 'Walmart Inc.']",[1 4 2 3],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[1, 3, 4, 2]"
+37,user_2_1_0,71a9e0d1-c6f7-4871-98b1-479928b160a1,2024-11-26 08:28:13,final_ranking,"{'comp_order': array(['Walmart Inc.', 'Coca-Cola Company ', 'JP Morgan Chase & Co.',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([3, 1, 4, 2])}","['Walmart Inc.' 'Coca-Cola Company ' 'JP Morgan Chase & Co.'
+ 'Amazon.com, Inc.']",[3 1 4 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[2, 1, 3, 4]"
+38,user_1_0_4,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-29 20:32:11,final_ranking,"{'comp_order': array(['Eli Lilly and Company', 'Exxon Mobil Corporation',
+       'Johnson & Johnson', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([3, 1, 2, 4])}","['Eli Lilly and Company' 'Exxon Mobil Corporation' 'Johnson & Johnson'
+ 'Philip Morris International Inc']",[3 1 2 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[1, 4, 2, 3]"
+39,user_2_2_3,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 01:25:20,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Bank of America Corporation',
+       'Tesla, Inc.', 'Apple Inc.'], dtype=object), 'ranking': array([2, 4, 3, 1])}","['Procter & Gamble Company ' 'Bank of America Corporation' 'Tesla, Inc.'
+ 'Apple Inc.']",[2 4 3 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 1, 2, 4]"
+40,user_3_2_0,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 04:32:08,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([4, 1, 3, 2])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[4 1 3 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+41,user_3_2_1,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 08:50:10,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 1, 3, 4])}","['Procter & Gamble Company ' 'Apple Inc.' 'Bank of America Corporation'
+ 'Tesla, Inc.']",[2 1 3 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 4, 1, 2]"
+42,user_3_2_3,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 11:51:57,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Bank of America Corporation',
+       'Tesla, Inc.', 'Apple Inc.'], dtype=object), 'ranking': array([1, 4, 3, 2])}","['Procter & Gamble Company ' 'Bank of America Corporation' 'Tesla, Inc.'
+ 'Apple Inc.']",[1 4 3 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 1, 2, 4]"
+43,user_1_1_2,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 13:08:20,final_ranking,"{'comp_order': array(['Coca-Cola Company ', 'JP Morgan Chase & Co.', 'Amazon.com, Inc.',
+       'Walmart Inc.'], dtype=object), 'ranking': array([4, 1, 3, 2])}","['Coca-Cola Company ' 'JP Morgan Chase & Co.' 'Amazon.com, Inc.'
+ 'Walmart Inc.']",[4 1 3 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[1, 3, 4, 2]"
+44,user_3_2_2,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 13:17:42,final_ranking,"{'comp_order': array(['Tesla, Inc.', 'Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation'], dtype=object), 'ranking': array([1, 3, 2, 4])}","['Tesla, Inc.' 'Procter & Gamble Company ' 'Apple Inc.'
+ 'Bank of America Corporation']",[1 3 2 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[2, 3, 4, 1]"
+45,user_1_2_4,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 14:10:37,final_ranking,"{'comp_order': array(['Apple Inc.', 'Bank of America Corporation',
+       'Procter & Gamble Company ', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 3, 1, 4])}","['Apple Inc.' 'Bank of America Corporation' 'Procter & Gamble Company '
+ 'Tesla, Inc.']",[2 3 1 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[4, 1, 3, 2]"
+46,demo_0_2_4,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 15:04:53,final_ranking,"{'comp_order': array(['Apple Inc.', 'Bank of America Corporation',
+       'Procter & Gamble Company ', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 3, 4, 1])}","['Apple Inc.' 'Bank of America Corporation' 'Procter & Gamble Company '
+ 'Tesla, Inc.']",[2 3 4 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[4, 1, 3, 2]"
+47,demo_1_2_2,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 17:12:46,final_ranking,"{'comp_order': array(['Tesla, Inc.', 'Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation'], dtype=object), 'ranking': array([2, 3, 1, 4])}","['Tesla, Inc.' 'Procter & Gamble Company ' 'Apple Inc.'
+ 'Bank of America Corporation']",[2 3 1 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[2, 3, 4, 1]"
+48,user_0_1_2,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-30 22:48:30,final_ranking,"{'comp_order': array(['Coca-Cola Company ', 'JP Morgan Chase & Co.', 'Amazon.com, Inc.',
+       'Walmart Inc.'], dtype=object), 'ranking': array([2, 4, 3, 1])}","['Coca-Cola Company ' 'JP Morgan Chase & Co.' 'Amazon.com, Inc.'
+ 'Walmart Inc.']",[2 4 3 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[1, 3, 4, 2]"
+49,user_1_1_0,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-31 18:15:21,final_ranking,"{'comp_order': array(['Walmart Inc.', 'Coca-Cola Company ', 'JP Morgan Chase & Co.',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([2, 4, 3, 1])}","['Walmart Inc.' 'Coca-Cola Company ' 'JP Morgan Chase & Co.'
+ 'Amazon.com, Inc.']",[2 4 3 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[2, 1, 3, 4]"
+50,user_2_2_1,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-31 20:31:05,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation', 'Tesla, Inc.'], dtype=object), 'ranking': array([3, 2, 4, 1])}","['Procter & Gamble Company ' 'Apple Inc.' 'Bank of America Corporation'
+ 'Tesla, Inc.']",[3 2 4 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 4, 1, 2]"
+51,demo_2_0_1,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-10-31 23:05:19,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([1, 3, 2, 4])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[1 3 2 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+52,user_0_1_0,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-01 00:24:10,final_ranking,"{'comp_order': array(['Walmart Inc.', 'Coca-Cola Company ', 'JP Morgan Chase & Co.',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([1, 2, 4, 3])}","['Walmart Inc.' 'Coca-Cola Company ' 'JP Morgan Chase & Co.'
+ 'Amazon.com, Inc.']",[1 2 4 3],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[2, 1, 3, 4]"
+53,user_3_1_3,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-02 00:46:59,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Walmart Inc.', 'Coca-Cola Company ',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([2, 1, 3, 4])}","['JP Morgan Chase & Co.' 'Walmart Inc.' 'Coca-Cola Company '
+ 'Amazon.com, Inc.']",[2 1 3 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 2, 1, 4]"
+54,demo_2_1_2,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-02 08:06:03,final_ranking,"{'comp_order': array(['Coca-Cola Company ', 'JP Morgan Chase & Co.', 'Amazon.com, Inc.',
+       'Walmart Inc.'], dtype=object), 'ranking': array([3, 1, 4, 2])}","['Coca-Cola Company ' 'JP Morgan Chase & Co.' 'Amazon.com, Inc.'
+ 'Walmart Inc.']",[3 1 4 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[1, 3, 4, 2]"
+55,demo_3_0_1,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-04 12:21:22,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([2, 3, 1, 4])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[2 3 1 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+56,demo_2_2_3,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-04 17:51:49,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Bank of America Corporation',
+       'Tesla, Inc.', 'Apple Inc.'], dtype=object), 'ranking': array([1, 3, 4, 2])}","['Procter & Gamble Company ' 'Bank of America Corporation' 'Tesla, Inc.'
+ 'Apple Inc.']",[1 3 4 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 1, 2, 4]"
+57,user_0_0_0,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-04 20:00:41,final_ranking,"{'comp_order': array(['Exxon Mobil Corporation', 'Philip Morris International Inc',
+       'Johnson & Johnson', 'Eli Lilly and Company'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Exxon Mobil Corporation' 'Philip Morris International Inc'
+ 'Johnson & Johnson' 'Eli Lilly and Company']",[4 3 2 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[4, 3, 2, 1]"
+58,user_3_1_4,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-04 21:14:05,final_ranking,"{'comp_order': array(['Amazon.com, Inc.', 'Walmart Inc.', 'JP Morgan Chase & Co.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 2, 3, 1])}","['Amazon.com, Inc.' 'Walmart Inc.' 'JP Morgan Chase & Co.'
+ 'Coca-Cola Company ']",[4 2 3 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[4, 2, 3, 1]"
+59,user_1_1_3,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-05 01:29:39,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Walmart Inc.', 'Coca-Cola Company ',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([2, 1, 4, 3])}","['JP Morgan Chase & Co.' 'Walmart Inc.' 'Coca-Cola Company '
+ 'Amazon.com, Inc.']",[2 1 4 3],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 2, 1, 4]"
+60,user_1_0_0,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-05 15:45:39,final_ranking,"{'comp_order': array(['Exxon Mobil Corporation', 'Philip Morris International Inc',
+       'Johnson & Johnson', 'Eli Lilly and Company'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Exxon Mobil Corporation' 'Philip Morris International Inc'
+ 'Johnson & Johnson' 'Eli Lilly and Company']",[4 3 2 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[4, 3, 2, 1]"
+61,demo_2_2_0,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-05 20:28:30,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([4, 2, 3, 1])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[4 2 3 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+62,demo_3_0_4,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-07 08:06:24,final_ranking,"{'comp_order': array(['Eli Lilly and Company', 'Exxon Mobil Corporation',
+       'Johnson & Johnson', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([1, 3, 2, 4])}","['Eli Lilly and Company' 'Exxon Mobil Corporation' 'Johnson & Johnson'
+ 'Philip Morris International Inc']",[1 3 2 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[1, 4, 2, 3]"
+63,demo_0_2_1,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-08 16:07:19,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation', 'Tesla, Inc.'], dtype=object), 'ranking': array([4, 1, 3, 2])}","['Procter & Gamble Company ' 'Apple Inc.' 'Bank of America Corporation'
+ 'Tesla, Inc.']",[4 1 3 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 4, 1, 2]"
+64,demo_3_0_3,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-09 15:23:40,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Exxon Mobil Corporation',
+       'Philip Morris International Inc', 'Eli Lilly and Company'],
+      dtype=object), 'ranking': array([2, 3, 4, 1])}","['Johnson & Johnson' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc' 'Eli Lilly and Company']",[2 3 4 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 4, 3, 1]"
+65,user_2_2_0,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-11 08:02:40,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([1, 4, 3, 2])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[1 4 3 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+66,user_2_1_3,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-12 02:15:22,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Walmart Inc.', 'Coca-Cola Company ',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([4, 1, 2, 3])}","['JP Morgan Chase & Co.' 'Walmart Inc.' 'Coca-Cola Company '
+ 'Amazon.com, Inc.']",[4 1 2 3],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 2, 1, 4]"
+67,user_2_2_2,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-14 03:48:45,final_ranking,"{'comp_order': array(['Tesla, Inc.', 'Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation'], dtype=object), 'ranking': array([3, 4, 1, 2])}","['Tesla, Inc.' 'Procter & Gamble Company ' 'Apple Inc.'
+ 'Bank of America Corporation']",[3 4 1 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[2, 3, 4, 1]"
+68,user_3_0_2,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-14 07:24:30,final_ranking,"{'comp_order': array(['Philip Morris International Inc', 'Johnson & Johnson',
+       'Eli Lilly and Company', 'Exxon Mobil Corporation'], dtype=object), 'ranking': array([2, 3, 1, 4])}","['Philip Morris International Inc' 'Johnson & Johnson'
+ 'Eli Lilly and Company' 'Exxon Mobil Corporation']",[2 3 1 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[3, 2, 1, 4]"
+69,user_3_1_1,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-14 08:14:46,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Amazon.com, Inc.', 'Walmart Inc.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([3, 4, 2, 1])}","['JP Morgan Chase & Co.' 'Amazon.com, Inc.' 'Walmart Inc.'
+ 'Coca-Cola Company ']",[3 4 2 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 4, 2, 1]"
+70,user_3_2_4,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-14 09:46:27,final_ranking,"{'comp_order': array(['Apple Inc.', 'Bank of America Corporation',
+       'Procter & Gamble Company ', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 4, 3, 1])}","['Apple Inc.' 'Bank of America Corporation' 'Procter & Gamble Company '
+ 'Tesla, Inc.']",[2 4 3 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[4, 1, 3, 2]"
+71,user_2_1_4,7eea2bdd-70bb-4430-b87d-32cbe72dd1f0,2024-11-14 14:10:09,final_ranking,"{'comp_order': array(['Amazon.com, Inc.', 'Walmart Inc.', 'JP Morgan Chase & Co.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 1, 3, 2])}","['Amazon.com, Inc.' 'Walmart Inc.' 'JP Morgan Chase & Co.'
+ 'Coca-Cola Company ']",[4 1 3 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[4, 2, 3, 1]"
+72,user_2_0_0,847aded7-697c-424e-8b54-632f321e1590,2024-10-24 16:45:28,final_ranking,"{'comp_order': array(['Exxon Mobil Corporation', 'Philip Morris International Inc',
+       'Johnson & Johnson', 'Eli Lilly and Company'], dtype=object), 'ranking': array([4, 2, 1, 3])}","['Exxon Mobil Corporation' 'Philip Morris International Inc'
+ 'Johnson & Johnson' 'Eli Lilly and Company']",[4 2 1 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[4, 3, 2, 1]"
+73,user_0_0_1,847aded7-697c-424e-8b54-632f321e1590,2024-10-24 18:59:19,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([1, 2, 4, 3])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[1 2 4 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+74,user_0_1_1,847aded7-697c-424e-8b54-632f321e1590,2024-10-24 19:05:37,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Amazon.com, Inc.', 'Walmart Inc.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([3, 4, 1, 2])}","['JP Morgan Chase & Co.' 'Amazon.com, Inc.' 'Walmart Inc.'
+ 'Coca-Cola Company ']",[3 4 1 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 4, 2, 1]"
+75,user_0_0_3,847aded7-697c-424e-8b54-632f321e1590,2024-10-24 19:17:37,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Exxon Mobil Corporation',
+       'Philip Morris International Inc', 'Eli Lilly and Company'],
+      dtype=object), 'ranking': array([2, 4, 3, 1])}","['Johnson & Johnson' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc' 'Eli Lilly and Company']",[2 4 3 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 4, 3, 1]"
+76,user_1_0_4,973b6bfa-2ce7-4103-86f3-aeae840d0584,2024-10-24 22:41:45,final_ranking,"{'comp_order': array(['Eli Lilly and Company', 'Exxon Mobil Corporation',
+       'Johnson & Johnson', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([1, 4, 3, 2])}","['Eli Lilly and Company' 'Exxon Mobil Corporation' 'Johnson & Johnson'
+ 'Philip Morris International Inc']",[1 4 3 2],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[1, 4, 2, 3]"
+77,user_1_0_0,973b6bfa-2ce7-4103-86f3-aeae840d0584,2024-10-25 00:20:42,final_ranking,"{'comp_order': array(['Exxon Mobil Corporation', 'Philip Morris International Inc',
+       'Johnson & Johnson', 'Eli Lilly and Company'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Exxon Mobil Corporation' 'Philip Morris International Inc'
+ 'Johnson & Johnson' 'Eli Lilly and Company']",[4 3 2 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[4, 3, 2, 1]"
+78,user_1_1_4,973b6bfa-2ce7-4103-86f3-aeae840d0584,2024-10-25 00:49:39,final_ranking,"{'comp_order': array(['Amazon.com, Inc.', 'Walmart Inc.', 'JP Morgan Chase & Co.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([3, 2, 4, 1])}","['Amazon.com, Inc.' 'Walmart Inc.' 'JP Morgan Chase & Co.'
+ 'Coca-Cola Company ']",[3 2 4 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[4, 2, 3, 1]"
+79,user_0_1_3,e15d19a7-98d3-466f-a870-2c87a5db60b8,2024-10-24 22:15:53,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Walmart Inc.', 'Coca-Cola Company ',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([2, 4, 1, 3])}","['JP Morgan Chase & Co.' 'Walmart Inc.' 'Coca-Cola Company '
+ 'Amazon.com, Inc.']",[2 4 1 3],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 2, 1, 4]"
+80,user_0_1_4,e15d19a7-98d3-466f-a870-2c87a5db60b8,2024-10-24 23:27:02,final_ranking,"{'comp_order': array(['Amazon.com, Inc.', 'Walmart Inc.', 'JP Morgan Chase & Co.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Amazon.com, Inc.' 'Walmart Inc.' 'JP Morgan Chase & Co.'
+ 'Coca-Cola Company ']",[4 3 2 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[4, 2, 3, 1]"
+81,user_0_2_3,e15d19a7-98d3-466f-a870-2c87a5db60b8,2024-10-25 00:27:45,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Bank of America Corporation',
+       'Tesla, Inc.', 'Apple Inc.'], dtype=object), 'ranking': array([1, 4, 3, 2])}","['Procter & Gamble Company ' 'Bank of America Corporation' 'Tesla, Inc.'
+ 'Apple Inc.']",[1 4 3 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 1, 2, 4]"
+82,user_0_2_2,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-25 19:01:14,final_ranking,"{'comp_order': array(['Tesla, Inc.', 'Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation'], dtype=object), 'ranking': array([4, 1, 2, 3])}","['Tesla, Inc.' 'Procter & Gamble Company ' 'Apple Inc.'
+ 'Bank of America Corporation']",[4 1 2 3],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[2, 3, 4, 1]"
+83,user_1_0_1,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-26 02:21:07,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([4, 3, 1, 2])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[4 3 1 2],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+84,user_3_1_3,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-26 16:39:40,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Walmart Inc.', 'Coca-Cola Company ',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['JP Morgan Chase & Co.' 'Walmart Inc.' 'Coca-Cola Company '
+ 'Amazon.com, Inc.']",[4 3 2 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 2, 1, 4]"
+85,user_0_0_1,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-26 23:13:22,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([1, 2, 3, 4])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[1 2 3 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+86,user_1_0_3,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-27 16:32:26,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Exxon Mobil Corporation',
+       'Philip Morris International Inc', 'Eli Lilly and Company'],
+      dtype=object), 'ranking': array([4, 2, 3, 1])}","['Johnson & Johnson' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc' 'Eli Lilly and Company']",[4 2 3 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 4, 3, 1]"
+87,user_0_0_2,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-27 20:46:13,final_ranking,"{'comp_order': array(['Philip Morris International Inc', 'Johnson & Johnson',
+       'Eli Lilly and Company', 'Exxon Mobil Corporation'], dtype=object), 'ranking': array([3, 2, 1, 4])}","['Philip Morris International Inc' 'Johnson & Johnson'
+ 'Eli Lilly and Company' 'Exxon Mobil Corporation']",[3 2 1 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[3, 2, 1, 4]"
+88,user_0_2_4,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-27 22:27:12,final_ranking,"{'comp_order': array(['Apple Inc.', 'Bank of America Corporation',
+       'Procter & Gamble Company ', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 4, 3, 1])}","['Apple Inc.' 'Bank of America Corporation' 'Procter & Gamble Company '
+ 'Tesla, Inc.']",[2 4 3 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[4, 1, 3, 2]"
+89,user_1_2_0,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-28 02:12:35,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([1, 3, 4, 2])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[1 3 4 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+90,user_0_1_3,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-28 02:25:17,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Walmart Inc.', 'Coca-Cola Company ',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([3, 2, 1, 4])}","['JP Morgan Chase & Co.' 'Walmart Inc.' 'Coca-Cola Company '
+ 'Amazon.com, Inc.']",[3 2 1 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 2, 1, 4]"
+91,user_0_1_4,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-28 13:48:50,final_ranking,"{'comp_order': array(['Amazon.com, Inc.', 'Walmart Inc.', 'JP Morgan Chase & Co.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 1, 3, 2])}","['Amazon.com, Inc.' 'Walmart Inc.' 'JP Morgan Chase & Co.'
+ 'Coca-Cola Company ']",[4 1 3 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[4, 2, 3, 1]"
+92,user_3_2_4,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-28 16:39:49,final_ranking,"{'comp_order': array(['Apple Inc.', 'Bank of America Corporation',
+       'Procter & Gamble Company ', 'Tesla, Inc.'], dtype=object), 'ranking': array([1, 3, 4, 2])}","['Apple Inc.' 'Bank of America Corporation' 'Procter & Gamble Company '
+ 'Tesla, Inc.']",[1 3 4 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[4, 1, 3, 2]"
+93,user_3_2_2,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-28 16:47:06,final_ranking,"{'comp_order': array(['Tesla, Inc.', 'Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation'], dtype=object), 'ranking': array([3, 2, 4, 1])}","['Tesla, Inc.' 'Procter & Gamble Company ' 'Apple Inc.'
+ 'Bank of America Corporation']",[3 2 4 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[2, 3, 4, 1]"
+94,user_2_1_1,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-28 19:18:48,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Amazon.com, Inc.', 'Walmart Inc.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 1, 2, 3])}","['JP Morgan Chase & Co.' 'Amazon.com, Inc.' 'Walmart Inc.'
+ 'Coca-Cola Company ']",[4 1 2 3],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 4, 2, 1]"
+95,user_0_0_0,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-28 21:00:55,final_ranking,"{'comp_order': array(['Exxon Mobil Corporation', 'Philip Morris International Inc',
+       'Johnson & Johnson', 'Eli Lilly and Company'], dtype=object), 'ranking': array([2, 4, 3, 1])}","['Exxon Mobil Corporation' 'Philip Morris International Inc'
+ 'Johnson & Johnson' 'Eli Lilly and Company']",[2 4 3 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[4, 3, 2, 1]"
+96,user_0_1_2,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-28 23:14:42,final_ranking,"{'comp_order': array(['Coca-Cola Company ', 'JP Morgan Chase & Co.', 'Amazon.com, Inc.',
+       'Walmart Inc.'], dtype=object), 'ranking': array([1, 3, 4, 2])}","['Coca-Cola Company ' 'JP Morgan Chase & Co.' 'Amazon.com, Inc.'
+ 'Walmart Inc.']",[1 3 4 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[1, 3, 4, 2]"
+97,user_3_2_0,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-29 12:41:06,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([2, 4, 3, 1])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[2 4 3 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+98,user_2_2_1,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-29 15:18:18,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation', 'Tesla, Inc.'], dtype=object), 'ranking': array([4, 3, 1, 2])}","['Procter & Gamble Company ' 'Apple Inc.' 'Bank of America Corporation'
+ 'Tesla, Inc.']",[4 3 1 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 4, 1, 2]"
+99,user_0_2_0,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 00:03:18,final_ranking,"{'comp_order': array(['Bank of America Corporation', 'Tesla, Inc.',
+       'Procter & Gamble Company ', 'Apple Inc.'], dtype=object), 'ranking': array([3, 2, 1, 4])}","['Bank of America Corporation' 'Tesla, Inc.' 'Procter & Gamble Company '
+ 'Apple Inc.']",[3 2 1 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[1, 2, 3, 4]"
+100,user_3_1_0,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 00:25:08,final_ranking,"{'comp_order': array(['Walmart Inc.', 'Coca-Cola Company ', 'JP Morgan Chase & Co.',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([1, 2, 3, 4])}","['Walmart Inc.' 'Coca-Cola Company ' 'JP Morgan Chase & Co.'
+ 'Amazon.com, Inc.']",[1 2 3 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[2, 1, 3, 4]"
+101,user_2_0_1,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 05:12:30,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Eli Lilly and Company',
+       'Exxon Mobil Corporation', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([1, 2, 4, 3])}","['Johnson & Johnson' 'Eli Lilly and Company' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc']",[1 2 4 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 1, 4, 3]"
+102,user_2_0_2,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 09:03:06,final_ranking,"{'comp_order': array(['Philip Morris International Inc', 'Johnson & Johnson',
+       'Eli Lilly and Company', 'Exxon Mobil Corporation'], dtype=object), 'ranking': array([1, 3, 2, 4])}","['Philip Morris International Inc' 'Johnson & Johnson'
+ 'Eli Lilly and Company' 'Exxon Mobil Corporation']",[1 3 2 4],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[3, 2, 1, 4]"
+103,user_2_1_4,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 12:24:55,final_ranking,"{'comp_order': array(['Amazon.com, Inc.', 'Walmart Inc.', 'JP Morgan Chase & Co.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([3, 2, 1, 4])}","['Amazon.com, Inc.' 'Walmart Inc.' 'JP Morgan Chase & Co.'
+ 'Coca-Cola Company ']",[3 2 1 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[4, 2, 3, 1]"
+104,user_0_1_0,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 14:38:30,final_ranking,"{'comp_order': array(['Walmart Inc.', 'Coca-Cola Company ', 'JP Morgan Chase & Co.',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([2, 1, 3, 4])}","['Walmart Inc.' 'Coca-Cola Company ' 'JP Morgan Chase & Co.'
+ 'Amazon.com, Inc.']",[2 1 3 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[2, 1, 3, 4]"
+105,demo_1_1_0,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 15:25:01,final_ranking,"{'comp_order': array(['Walmart Inc.', 'Coca-Cola Company ', 'JP Morgan Chase & Co.',
+       'Amazon.com, Inc.'], dtype=object), 'ranking': array([1, 3, 4, 2])}","['Walmart Inc.' 'Coca-Cola Company ' 'JP Morgan Chase & Co.'
+ 'Amazon.com, Inc.']",[1 3 4 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[2, 1, 3, 4]"
+106,user_2_0_3,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 17:22:01,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Exxon Mobil Corporation',
+       'Philip Morris International Inc', 'Eli Lilly and Company'],
+      dtype=object), 'ranking': array([2, 3, 4, 1])}","['Johnson & Johnson' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc' 'Eli Lilly and Company']",[2 3 4 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 4, 3, 1]"
+107,demo_0_0_3,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 17:35:11,final_ranking,"{'comp_order': array(['Johnson & Johnson', 'Exxon Mobil Corporation',
+       'Philip Morris International Inc', 'Eli Lilly and Company'],
+      dtype=object), 'ranking': array([2, 3, 4, 1])}","['Johnson & Johnson' 'Exxon Mobil Corporation'
+ 'Philip Morris International Inc' 'Eli Lilly and Company']",[2 3 4 1],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[2, 4, 3, 1]"
+108,user_1_2_3,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-30 23:26:33,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Bank of America Corporation',
+       'Tesla, Inc.', 'Apple Inc.'], dtype=object), 'ranking': array([4, 2, 3, 1])}","['Procter & Gamble Company ' 'Bank of America Corporation' 'Tesla, Inc.'
+ 'Apple Inc.']",[4 2 3 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 1, 2, 4]"
+109,user_0_2_1,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-31 18:25:05,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation', 'Tesla, Inc.'], dtype=object), 'ranking': array([3, 1, 4, 2])}","['Procter & Gamble Company ' 'Apple Inc.' 'Bank of America Corporation'
+ 'Tesla, Inc.']",[3 1 4 2],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 4, 1, 2]"
+110,user_3_0_2,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-31 21:05:58,final_ranking,"{'comp_order': array(['Philip Morris International Inc', 'Johnson & Johnson',
+       'Eli Lilly and Company', 'Exxon Mobil Corporation'], dtype=object), 'ranking': array([4, 1, 2, 3])}","['Philip Morris International Inc' 'Johnson & Johnson'
+ 'Eli Lilly and Company' 'Exxon Mobil Corporation']",[4 1 2 3],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[3, 2, 1, 4]"
+111,demo_3_1_2,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-10-31 23:41:06,final_ranking,"{'comp_order': array(['Coca-Cola Company ', 'JP Morgan Chase & Co.', 'Amazon.com, Inc.',
+       'Walmart Inc.'], dtype=object), 'ranking': array([2, 1, 3, 4])}","['Coca-Cola Company ' 'JP Morgan Chase & Co.' 'Amazon.com, Inc.'
+ 'Walmart Inc.']",[2 1 3 4],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[1, 3, 4, 2]"
+112,user_1_2_1,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-11-01 00:39:25,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 3, 4, 1])}","['Procter & Gamble Company ' 'Apple Inc.' 'Bank of America Corporation'
+ 'Tesla, Inc.']",[2 3 4 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 4, 1, 2]"
+113,demo_3_2_1,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-11-01 00:52:11,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 3, 1, 4])}","['Procter & Gamble Company ' 'Apple Inc.' 'Bank of America Corporation'
+ 'Tesla, Inc.']",[2 3 1 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 4, 1, 2]"
+114,user_2_0_4,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-11-02 01:14:23,final_ranking,"{'comp_order': array(['Eli Lilly and Company', 'Exxon Mobil Corporation',
+       'Johnson & Johnson', 'Philip Morris International Inc'],
+      dtype=object), 'ranking': array([3, 4, 1, 2])}","['Eli Lilly and Company' 'Exxon Mobil Corporation' 'Johnson & Johnson'
+ 'Philip Morris International Inc']",[3 4 1 2],0,"{'Eli Lilly and Company': 1, 'Johnson & Johnson': 2, 'Philip Morris International Inc': 3, 'Exxon Mobil Corporation': 4}","[1, 4, 2, 3]"
+115,demo_3_2_3,e7ba38fb-f2fd-41ff-bba3-3b85db433a3f,2024-11-02 08:43:17,final_ranking,"{'comp_order': array(['Procter & Gamble Company ', 'Bank of America Corporation',
+       'Tesla, Inc.', 'Apple Inc.'], dtype=object), 'ranking': array([4, 3, 2, 1])}","['Procter & Gamble Company ' 'Bank of America Corporation' 'Tesla, Inc.'
+ 'Apple Inc.']",[4 3 2 1],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[3, 1, 2, 4]"
+116,user_3_1_1,ed6a4c6f-1475-404b-917c-67155410f655,2024-10-24 17:14:56,final_ranking,"{'comp_order': array(['JP Morgan Chase & Co.', 'Amazon.com, Inc.', 'Walmart Inc.',
+       'Coca-Cola Company '], dtype=object), 'ranking': array([4, 3, 2, 1])}","['JP Morgan Chase & Co.' 'Amazon.com, Inc.' 'Walmart Inc.'
+ 'Coca-Cola Company ']",[4 3 2 1],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[3, 4, 2, 1]"
+117,user_1_2_2,ed6a4c6f-1475-404b-917c-67155410f655,2024-10-24 19:39:47,final_ranking,"{'comp_order': array(['Tesla, Inc.', 'Procter & Gamble Company ', 'Apple Inc.',
+       'Bank of America Corporation'], dtype=object), 'ranking': array([1, 3, 2, 4])}","['Tesla, Inc.' 'Procter & Gamble Company ' 'Apple Inc.'
+ 'Bank of America Corporation']",[1 3 2 4],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[2, 3, 4, 1]"
+118,user_1_1_2,ed6a4c6f-1475-404b-917c-67155410f655,2024-10-24 19:58:07,final_ranking,"{'comp_order': array(['Coca-Cola Company ', 'JP Morgan Chase & Co.', 'Amazon.com, Inc.',
+       'Walmart Inc.'], dtype=object), 'ranking': array([1, 4, 3, 2])}","['Coca-Cola Company ' 'JP Morgan Chase & Co.' 'Amazon.com, Inc.'
+ 'Walmart Inc.']",[1 4 3 2],1,"{'Coca-Cola Company ': 1, 'Walmart Inc.': 2, 'JP Morgan Chase & Co.': 3, 'Amazon.com, Inc.': 4}","[1, 3, 4, 2]"
+119,user_1_2_4,ed6a4c6f-1475-404b-917c-67155410f655,2024-10-24 20:21:12,final_ranking,"{'comp_order': array(['Apple Inc.', 'Bank of America Corporation',
+       'Procter & Gamble Company ', 'Tesla, Inc.'], dtype=object), 'ranking': array([2, 1, 4, 3])}","['Apple Inc.' 'Bank of America Corporation' 'Procter & Gamble Company '
+ 'Tesla, Inc.']",[2 1 4 3],2,"{'Bank of America Corporation': 1, 'Tesla, Inc.': 2, 'Procter & Gamble Company ': 3, 'Apple Inc.': 4}","[4, 1, 3, 2]"

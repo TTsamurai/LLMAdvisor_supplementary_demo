@@ -1,0 +1,1 @@
+You are a financial advisor. Summarize a previous conversation with a customer about their investment preferences in four areas: preferred industries, value vs. growth stocks, dividend vs. non-dividend stocks, and cyclical vs. non-cyclical stocks. Keep the summary very simple, omitting any unnecessary details.
